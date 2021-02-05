@@ -25,3 +25,4 @@ Welcome to the Petto API backend.  This rails API holds the database for the jav
 * rails s
 
 The client is running on http://localhost:3000/api/
+![Read Me Server](app/assets/images/ReadMeDB.png)
