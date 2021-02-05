@@ -1,24 +1,27 @@
-# README
+# Petto API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Petto API backend.  This rails API holds the database for the javascript based Petto front end.  The server database archives instances of users and Pettos belonging to the user.
 
-Things you may want to cover:
 
-* Ruby version
+## Gem files of Importance:
 
-* System dependencies
+* Ruby Rails version 6
 
-* Configuration
+* postgresql 2.0
 
-* Database creation
+* active-model-serializers
 
-* Database initialization
+* rack-cors
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## To Run
+**Setup**
+* git clone git@github.com:JlordA/petto-backend.git
+* cd backend
+* cd petto_backend
 
-* Deployment instructions
+**To start the Client:**
+* bundle install or yarn
+* rails s
 
-* ...
+The client is running on http://localhost:3000/api/
